@@ -24,6 +24,7 @@ Push  has following options
 }
   ```
 ## DISPLAY TEXT WITH DOUBLE CONFIRMATION
+  field confirmation must be true
   ```json
   {
   "msisdn": "89110437",
@@ -62,6 +63,8 @@ RABBIT MQ Client maven
             <type>jar</type>
         </dependency>
 ```
+MQ quue name is >>push.|OFFERID|>>
+
 ```java
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;

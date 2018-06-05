@@ -13,7 +13,7 @@ Push  has following options
   
 # API BODY
   Here OFFERID MUST BE UNIQ
-## DISPLAY TEXT WITH SINGLE CONFIRMATION
+## DISPLAY TEXT WITH SINGLE CONFIRMATION TYPE=1
   ```json
   {
   "msisdn": "89110437",
@@ -23,7 +23,7 @@ Push  has following options
   "confirmation": false
 }
   ```
-## DISPLAY TEXT WITH DOUBLE CONFIRMATION
+## DISPLAY TEXT WITH DOUBLE CONFIRMATION TYPE=1 , CONFIRMATION=TRUE
   field confirmation must be true
   ```json
   {
@@ -34,7 +34,7 @@ Push  has following options
   "confirmation": true
 }
   ```
-## GET INKEY
+## GET INKEY TYPE=2
   ```json
 {
   "msisdn": "89110437",
@@ -43,7 +43,7 @@ Push  has following options
   "type": 2
 }
   ```
-## SETUP CALL
+## SETUP CALL TYPE=3 , TO=NUMBER_TO_CALL
   ```json
 {
   "msisdn": "89110437",

@@ -53,6 +53,15 @@ Push  has following options
 }
   ```
 ## CONSUMING RABBIT MQ
+RABBIT MQ Client maven 
+```xml
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>3.6.6</version>
+            <type>jar</type>
+        </dependency>
+```
 ```java
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;

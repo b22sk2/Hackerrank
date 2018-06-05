@@ -22,7 +22,7 @@ Push  has following options
   "confirmation": false
 }
   ```
-## DISPLAY TEXT WITH SINGLE CONFIRMATION
+## DISPLAY TEXT WITH DOUBLE CONFIRMATION
   ```json
   {
   "msisdn": "89110437",
@@ -30,5 +30,24 @@ Push  has following options
   "offerId": "test",
   "type": 1,
   "confirmation": true
+}
+  ```
+## GET INKEY
+  ```json
+{
+  "msisdn": "89110437",
+  "content": "test",
+  "offerId": "test",
+  "type": 2
+}
+  ```
+## SETUP CALL
+  ```json
+{
+  "msisdn": "89110437",
+  "content": "test",
+  "offerId": "test",
+  "to":"9761414",
+  "type": 3
 }
   ```

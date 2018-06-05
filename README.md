@@ -11,3 +11,24 @@ Push  has following options
   1. SENDING REQUEST USING HTTP POST
   2. REVEIVING USER RESPONSE USING RABBIT MQ
   
+# API BODY
+## DISPLAY TEXT WITH SINGLE CONFIRMATION
+  ```json
+  {
+  "msisdn": "89110437",
+  "content": "this is test",
+  "offerId": "test",
+  "type": 1,
+  "confirmation": false
+}
+  ```
+## DISPLAY TEXT WITH SINGLE CONFIRMATION
+  ```json
+  {
+  "msisdn": "89110437",
+  "content": "this is test",
+  "offerId": "test",
+  "type": 1,
+  "confirmation": true
+}
+  ```

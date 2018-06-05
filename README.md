@@ -63,7 +63,7 @@ RABBIT MQ Client maven
             <type>jar</type>
         </dependency>
 ```
-MQ quue name is >>push.|OFFERID|>>
+MQ quue name is >push.|OFFERID|>*
 
 ```java
 import com.rabbitmq.client.AMQP;

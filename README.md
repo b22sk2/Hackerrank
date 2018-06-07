@@ -119,3 +119,10 @@ public class Test {
 ```json
 {"message":"00","reason":"request_expired","recievedDate":"20180528113422","offerId":null,"status":"SUCCESS","msisdn":"88881005","requestType":0,"requestContent":null,"reportDate":"20180528113422"}
 ```
+## 2.GET INKEY
+  HERE message  field value is in HEXADECIMAL
+ ```json
+ {"message":"31","reason":"YES","recievedDate":"20180524092841","offerId":"test_all211","status":"SUCCESS","msisdn":"89110437","requestType":2,"requestContent":"Yuch bitgii daraarai ","reportDate":"20180524092841"}
+ ```
+## 3. SETUP CALL
+  Do not send sms to SERVER in all  cases

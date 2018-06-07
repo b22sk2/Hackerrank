@@ -96,6 +96,8 @@ public class Test {
     }
  
 }
+
+```
 ## API RESPONSE
 IN CASE OF SUCCESS
 ```json 

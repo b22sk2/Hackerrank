@@ -96,6 +96,14 @@ public class Test {
     }
  
 }
+## API RESPONSE
+IN CASE OF SUCCESS
+```json 
+{
+"status": "SUCCESS",
+"reason": null,
+"requestType": 3
+}
 ```
 # USER RESPONSES
 ## 1.DISPLAY TEXT

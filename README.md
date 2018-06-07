@@ -1,15 +1,15 @@
 # PUSH OFFER
-## GENERAL DESCRIPTION
+## 1. GENERAL DESCRIPTION
 Push  has following options
-1. *DISPLAY TEXT*
+1.1 *DISPLAY TEXT*
   Displays simple offer content with YES/NO options. It sends sms to SERVER in case of YES/NO option is selected.It disapears from ME screen after 2 minutes and it re-display after each call disconnect for 2 hours.  
- 2. *GET INKEY*
+ 1.2 *GET INKEY*
    It displays offer content with built-in keyboard. Suitable for multi-offers or voting. In case of user press OK  button it sends  sms to SERVER.
-3. *SETUP CALL*
+1.3 *SETUP CALL*
   It makes phone call to desired destination in behalf of customer. Asks customer permission each time.
 ## "PUSH OFFER" for 3rd party systems
-  1. SENDING REQUEST USING HTTP POST
-  2. REVEIVING USER RESPONSE USING RABBIT MQ
+  * SENDING REQUEST USING HTTP POST
+  * REVEIVING USER RESPONSE USING RABBIT MQ
   
 # API BODY
   Here OFFERID MUST BE UNIQUE
@@ -98,7 +98,7 @@ public class Test {
 }
 ```
 # USER RESPONSES
-## DISPLAY TEXT
+## 1.DISPLAY TEXT
 ### USER PRESSED YES BUTTON
 ```json
 {"message":"00","reason":"YES","recievedDate":"20180531171801","offerId":"test_all211","status":"SUCCESS","msisdn":"89117511","requestType":1,"requestContent":"test ettests tas das asd  ","reportDate":"20180531171801"}

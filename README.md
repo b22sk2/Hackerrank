@@ -35,7 +35,8 @@ Push  has following options
 }
   ```
 ## GET INKEY TYPE=2
-![EXAMPLE](https://image.ibb.co/ckw7aJ/Screenshot_20180614_141339.jpg) .element height="50%" width="50%"
+<img src="https://image.ibb.co/ckw7aJ/Screenshot_20180614_141339.jpg" width="25%" height="25%">
+
 
   ```json
 {

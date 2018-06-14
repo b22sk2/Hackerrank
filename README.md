@@ -35,10 +35,11 @@ Push  has following options
 }
   ```
 ## GET INKEY TYPE=2
+![alt text](https://image.ibb.co/ckw7aJ/Screenshot_20180614_141339.jpg)
   ```json
 {
   "msisdn": "89110437",
-  "content": "test",
+  "content": "Which one is bigges country in  AFRICA\n1.Congo\n2.Algeria\n3.EGYPT",
   "offerId": "test",
   "type": 2
 }

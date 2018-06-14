@@ -47,6 +47,7 @@ Push  has following options
 }
   ```
 ## SETUP CALL TYPE=3 , TO=NUMBER_TO_CALL
+<img src="https://image.ibb.co/frKfed/Screenshot_20180614_144443.jpg" width="25%" height="25%">
   ```json
 {
   "msisdn": "89110437",

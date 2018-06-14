@@ -51,11 +51,11 @@ Push  has following options
 
   ```json
 {
-  "msisdn": "89110437",
-  "content": "test",
-  "offerId": "test",
-  "to":"9761414",
-  "type": 3
+"msisdn": "89110437",
+"content": "if you want more information please press OK button",
+"offerId": "test",
+"to":"9761414",
+"type": 3
 }
  ```
 ## CONSUMING RABBIT MQ

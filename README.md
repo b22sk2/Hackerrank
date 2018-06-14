@@ -35,7 +35,7 @@ Push  has following options
 }
   ```
 ## GET INKEY TYPE=2
-
+![EXAMPLE](https://image.ibb.co/ckw7aJ/Screenshot_20180614_141339.jpg)
   ```json
 {
   "msisdn": "89110437",
